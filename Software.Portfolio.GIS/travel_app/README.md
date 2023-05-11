@@ -1,6 +1,36 @@
-# Getting Started with Create React App
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application serves as a vacation planner and travel companion for anyone visiting a place they've never been to before, 
+or are looking for something new in their area to explore. 
+
+The application will begin with the users geo-location and will dynamically find restaurants, hotels, and attractions located within 
+the area of the current map view. The user can filter the information by any of those aforementioned categories, as well as, access a 
+sub-filter of those categories based on ratings of the locations the user is seeking. 
+
+In addition to the filters, if the user selects a point of interest, they will be taken to the card they're interested in on the left-hand
+side of the map. The cards include information about the location and access to the location's website. 
+
+The application is built for use on either a desktop computer, tablet, or mobile device, and will adjust accordingly to screen-size.
+
+Below is a demonstration of the application in use. 
+
+[Software Demo Video](https://youtu.be/5-cJ5wFOzfo)
+
+# Development Environment
+
+This project was build using React.js via `create-react-app` using Node.js.  I used the following dependencies/libraries to complete the project:
+
+- Node.js
+- react
+- reactDOM
+- material-ui/core
+- material-ui/icons
+- material-ui/lab
+- react-google-maps/api
+- axios
+- google-map-react
+
+Below are the scripts for running the site once you've cloned the repository
 
 ## Available Scripts
 
@@ -14,57 +44,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+# Useful Websites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* To learn React, check out the [React documentation](https://reactjs.org/)
+* [Google Cloud Console](https://console.cloud.google.com/) Setup and manage Google Maps API
+* [RapidAPI](https://rapidapi.com/hub) Create and manage Travel API
+* [Google Maps API Documentation](https://developers.google.com/maps/documentation/javascript)
 
-### `npm run build`
+# Future Work
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Update the cards with distance fields to show travel distance
+* Add directions capabilities
+* Integrate with OpenWeather API to show weather in locations
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
