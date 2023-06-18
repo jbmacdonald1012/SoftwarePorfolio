@@ -1,0 +1,29 @@
+{
+  "name": "FirebaseDB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^9.17.1",
+    "firebase-admin": "^11.5.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbmacdonald1012/FirebaseDB.git"
+  },
+  "keywords": [],
+  "author": "Jason Macdonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbmacdonald1012/FirebaseDB/issues"
+  },
+  "homepage": "https://github.com/jbmacdonald1012/FirebaseDB#readme"
+}

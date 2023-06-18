@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homely Treasures | Cloud DB Frontend</title>
+    </head>
+    <body>
+
+        <h1>Homely Treasures Products</h1>
+
+        <div class="content">
+
+            <h2>Create Products</h2>
+
+            <form id="addProduct">
+                <label for="productName">Product Name:</label>
+                <input type="text" name="productName" required>
+                <label for="productDescription">Product Description:</label>
+                <input type="text" name="productDescription" requried>
+                <label for="productPrice">Price:</label>
+                <input type="number" name="productPrice" required>
+                <label for="productQuantity">Quantity:</label>
+                <input type="number" name="productQuantity" required>
+
+                <button>Add Product</button>
+            </form>
+
+            <h2>Update Products</h2>
+            <form id="updateProducts">
+                <label for="productId">Product ID:</label>
+                <input type="text" name="productId" required>
+                <label for="productName">Product Name:</label>
+                <input type="text" name="productName" required>
+                <label for="productDescription">Product Description:</label>
+                <input type="text" name="productDescription" requried>
+                <label for="productPrice">Price:</label>
+                <input type="number" name="productPrice" required>
+                <label for="productQuantity">Quantity:</label>
+                <input type="number" name="productQuantity" required>
+
+                <button>Update Product</button>
+            </form>
+
+
+            <h2>Delete Products</h2>
+
+            <form id="deleteProduct">
+                <label for="productId">Product ID:</label>
+                <input type="text" name="productId" required>
+
+                <button>Delete Product</button>
+            </form>
+        </div>
+        <script src="bundle.js"></script>
+    </body>
+</html>
